@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 5px #000;
+    
     background: var(--white2);
 }
 ::-webkit-scrollbar{
@@ -25,7 +25,7 @@
     background: var(--white);
 }
 ::-webkit-scrollbar-thumb{
-    background: var(--orange);
+    background: var(--white);
 }
 
 html {
@@ -392,8 +392,7 @@ header {
 }
 #works h1 span{
     font-size: 65px;
-    color: var(--orange);
-    
+    color: var(--orange);   
 }
 
 .works {
@@ -405,6 +404,26 @@ header {
     min-width: 0;
 }
 
+.interior1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.interior1 a{
+    padding-top: 20px;
+    font-size: 25px;
+    color: var(--orange);
+}
+.exterior1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.exterior1 a{
+    color: var(--orange);
+    padding-top: 20px;
+    font-size: 25px;
+}
 .works .interior {
     width: 100%;
     height: 500px;
@@ -509,14 +528,14 @@ header {
 }
 
 .slider-Items {
-    opacity: .4;
+    
     text-align: center;
-    background: #000000;
+    
 }
 .slick-current {
 }
 .slider-Items.slick-center {
-    opacity: 1;
+    
 }
 
 .slider-Itemsweb {
